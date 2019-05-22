@@ -1,0 +1,25 @@
+{
+  "name": "tweeter",
+  "version": "1.0.0",
+  "description": "This application enables users to post short messages and supports chunking for messages longer than 50 characters.",
+  "main": "app.js",
+  "engines": {
+    "node": "10.15.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Jun Ping",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "chai": "4.2.0",
+    "cors": "2.8.5",
+    "express": "4.17.0",
+    "mocha": "6.1.4",
+    "mongodb": "3.2.5",
+    "mongoose": "5.5.9",
+    "path": "0.12.7"
+  }
+}
